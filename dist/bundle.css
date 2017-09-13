@@ -1,0 +1,29 @@
+ul.menu {
+  list-style: none;
+  margin-top: -8px;
+  margin-left: -8px; }
+
+ul.menu li {
+  display: inline-block; }
+
+ul.menu li a {
+  font-family: sans-serif;
+  text-decoration: none;
+  background: #a64dff;
+  color: white;
+  padding: 8px 10px 8px 10px; }
+
+ul.menu li a:hover {
+  padding: 10px 10px 10px 10px;
+  background: #eeeeee;
+  color: #a0a0a0; }
+
+.menu {
+  float: center;
+  background: #a64dff;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  padding-left: 80px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJidW5kbGUuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
