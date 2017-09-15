@@ -1,6 +1,6 @@
 'use strict';
 
-import "./login.scss";
+import './login.scss';
 
 let users = [
     {name: 'Maria', pass: '1234'},
@@ -20,7 +20,7 @@ let validateForm = () => {
             break;
         }
     }
-    displayAuthorizationStatus(authorizationStatus);
+    event.preventDefault(displayAuthorizationStatus(authorizationStatus));
 };
 
 let submitButton = document.querySelector('#button-submit');
